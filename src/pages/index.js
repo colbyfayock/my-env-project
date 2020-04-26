@@ -16,7 +16,7 @@ const IndexPage = () => {
         <p className="gatsby-astronaut">
           <img src={img_gatsby} alt="Build with Gatsby!" />
         </p>
-        <h1>Gatsby Sass Starter</h1>
+        <h1>Hello, {process.env.GATSBY_MY_ENVIRONMENT}</h1>
         <p>
           Welcome to your new Gatsby site.
         </p>
